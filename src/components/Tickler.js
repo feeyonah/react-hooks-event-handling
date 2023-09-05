@@ -5,7 +5,7 @@ function Tickler() {
     console.log("Teehee!");
   }
 
-  return <button>Tickle me!</button>;
+  return <button onclick={tickle}>tickle me!</button>
 }
 
 export default Tickler;
